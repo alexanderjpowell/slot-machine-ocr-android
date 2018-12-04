@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Passport RU</string>
+    <string name="scan_bottom_page_message">Point the camera at the page with photo so that the document number is in the frame.</string>
+    <string name="scan_top_page_message">point the camera at the text on the right side of the page so that the passport number is inside the frame.</string>
+    <string name="wrong_document_warning_message">Perhaps there is no document number in the frame.</string>
+    <string name="focus_error_message">Autofocus failed</string>
+
+    <string name="open_bottom_page_message">Open page with photo and…\n(Tap the screen to continue)</string>
+    <string name="scan_bottom_page_text_message">…point the camera at the text on the right side of the page.\n(Tap the screen to continue)</string>
+    <string name="open_top_page_message">Point the camera at the top page of the passport…\n(Tap the screen to continue)</string>
+    <string name="scan_top_page_text_message">…so that the passport number is inside the frame.\n(Tap the screen to continue)</string>
+    <string name="final_scan_bottom_page_text_message">…point the camera at the text on the right side of the page.</string>
+    <string name="final_scan_top_page_text_message">…so that the passport number is inside the frame.</string>
+
+    <string-array name="prompt_types">
+        <item>Tutorial: prompt overlays preview at first run</item>
+        <item>Prompt overlays preview</item>
+        <item>Prompt at the bottom</item>
+    </string-array>
+    <string name="prompt_type_message">Prompt type</string>
+    <string name="settings_ok_message">OK</string>
+</resources>

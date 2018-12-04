@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Паспорт РФ</string>
+    <string name="scan_bottom_page_message">Наведите на текст на странице с фотографией так, чтобы номер паспорта попал в кадр</string>
+    <string name="scan_top_page_message">Наведите на текст на верхней странице так, чтобы номер паспорта попал в кадр</string>
+    <string name="wrong_document_warning_message">Возможно, в кадре нет номера паспорта.</string>
+    <string name="focus_error_message">Ошибка фокусировки</string>
+
+    <string name="open_bottom_page_message">Откройте страницу с фотографией и…\n(Нажмите на экран, чтобы продолжить)</string>
+    <string name="scan_bottom_page_text_message">…наведите камеру на текст на правой части страницы.\n(Нажмите на экран, чтобы продолжить)</string>
+    <string name="open_top_page_message">Наведите камеру на верхнюю страницу паспорта так, …\n(Нажмите на экран, чтобы продолжить)</string>
+    <string name="scan_top_page_text_message">…чтобы номер паспорта был внутри рамки.\n(Нажмите на экран, чтобы продолжить)</string>
+    <string name="final_scan_bottom_page_text_message">…наведите камеру на текст на правой части страницы.</string>
+    <string name="final_scan_top_page_text_message">…чтобы номер паспорта был внутри рамки.</string>
+
+    <string-array name="prompt_types">
+        <item>Обучение: подсказки поверх камеры только после запуска</item>
+        <item>Подсказка поверх камеры</item>
+        <item>Подсказка снизу</item>
+    </string-array>
+    <string name="prompt_type_message">Тип подсказок</string>
+    <string name="settings_ok_message">OK</string>
+</resources>

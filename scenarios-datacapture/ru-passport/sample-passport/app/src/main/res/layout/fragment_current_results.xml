@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fragments_background"
+                tools:context="com.abbyy.mobile.sample.passportreader.CurrentResultsFragment">
+
+    <LinearLayout
+        android:id="@+id/passport_pictures_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_image_margin"
+        android:layout_marginTop="@dimen/small_image_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress_bar"
+            android:layout_marginBottom="@dimen/small_image_margin"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/progress_circle_diameter"
+                app:srcCompat="@drawable/progress_yellow_circle"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/progress_circle_diameter"
+                app:srcCompat="@drawable/progress_yellow_circle"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/progress_circle_diameter"
+                app:srcCompat="@drawable/progress_yellow_circle"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/passport_picture_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            app:srcCompat="@drawable/ic_top_page_progress"/>
+
+        <ImageView
+            android:id="@+id/passport_picture_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_bottom_page_progress"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fields_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/passport_pictures_layout"/>
+</RelativeLayout>

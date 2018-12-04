@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="1dp"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/field_name"
+        android:textColor="@color/field_name"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:text="Value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/field_value"
+        android:textColor="@color/field_value"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+</LinearLayout>

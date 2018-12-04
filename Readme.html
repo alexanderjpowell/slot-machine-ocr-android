@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <title>ABBYY Real-Time Recognition SDK 1</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+   <style type="text/css">
+     body {font-size:16px; font-family:'Segoe UI',Tahoma,Verdana,Arial,sans-serif; color:#424650; margin:30px; background:#FFFFFF}
+     h1, h2, h3 {font-weight:normal}
+     h1 {font-size:27px; color:#c60c30}
+     h2 {font-size:24px}
+     h3 {font-size:21px; color:#768693}
+     h4 {font-weight:600}
+     p {margin: 7px 0px 7px 0px}
+     span.f_Comment, span.f_CommentHeading {font-style:italic; color:#768693}
+     span.f_CommentHeading {font-weight:bold}
+   </style>
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript" src="helpman_topicinit.js"></script>
+
+</head>
+<body>
+<h1 class="p_Heading1" style="page-break-after: avoid;"><span class="f_Heading1">ABBYY Real-Time Recognition SDK 1 (build 1.0.12.39)</span></h1>
+
+<ol style="text-indent:0px; padding-left:0; margin-top:0; margin-bottom:0; margin-left: 24px;list-style-position:outside; list-style-type:decimal">
+<li value="1" style="text-align: left; padding: 0px 0px 0px 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;"><span class="f_List"><a href="readme.html#about" class="topiclink">About ABBYY Real-Time Recognition SDK 1</a></span></li>
+<li value="2" style="text-align: left; padding: 0px 0px 0px 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;"><span class="f_List"><a href="readme.html#requirements" class="topiclink">Device Requirements</a></span></li>
+<li value="3" style="text-align: left; padding: 0px 0px 0px 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;"><span class="f_List"><a href="readme.html#help" class="topiclink">More Documentation</a></span></li>
+<li value="4" style="text-align: left; padding: 0px 0px 0px 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;"><span class="f_List"><a href="readme.html#samples" class="topiclink">Getting Started: Code Samples</a></span></li>
+</ol>
+<h2 class="p_Heading2" style="page-break-after: avoid;"><a id="about" class="hmanchor"></a><span class="f_Heading2">About ABBYY Real-Time Recognition SDK 1</span></h2>
+<p class="p_Normal">ABBYY Real-Time Recognition SDK (a software development kit) provides a technology for recognizing text directly on the smartphone's camera preview screen. </p>
+<p class="p_Normal">The library is supplied as an AAR file, together with the resources to support different languages of the text.</p>
+<h2 class="p_Heading2" style="page-break-after: avoid;"><a id="requirements" class="hmanchor"></a><span class="f_Heading2">Device Requirements</span></h2>
+<p class="p_Normal">Android version: 4.4 or later for ARMv7 (armeabi-v7a) and ARMv8 (arm64-v8a) processors</p>
+<p class="p_Normal">Processor:</p>
+<ul style="text-indent:0px; padding-left:0; margin-top:0; margin-bottom:0; margin-left: 17px;list-style-position:outside; list-style-type:disc">
+<li style="text-align: left; padding: 0px 0px 0px 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;"><span class="f_List">Arm NEON support</span></li>
+<li style="text-align: left; padding: 0px 0px 0px 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;"><span class="f_List">multi-core (augmented reality scenarios require </span><span class="f_List" style="font-weight: bold;">4 cores</span><span class="f_List">)</span></li>
+</ul>
+<p class="p_Normal">Camera:</p>
+<ul style="text-indent:0px; padding-left:0; margin-top:0; margin-bottom:0; margin-left: 17px;list-style-position:outside; list-style-type:disc">
+<li style="text-align: left; padding: 0px 0px 0px 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;"><span class="f_List">autofocus lens</span></li>
+<li style="text-align: left; padding: 0px 0px 0px 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;"><span class="f_List">HD preview: generally recommended frame size is </span><span class="f_List" style="font-weight: bold;">720×1280</span><span class="f_List">, but it can vary depending on the scenario and processing speed</span></li>
+</ul>
+<h3 class="p_Heading3" style="page-break-after: avoid;"><span class="f_Heading3">Memory requirements</span></h3>
+<p class="p_Normal">Library operation in the text capture scenario takes up to:</p>
+<ul style="text-indent:0px; padding-left:0; margin-top:0; margin-bottom:0; margin-left: 17px;list-style-position:outside; list-style-type:disc">
+<li style="text-align: left; padding: 0px 0px 0px 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;"><span class="f_List">for texts in alphabetic languages — </span><span class="f_List" style="font-weight: bold;">40</span><span class="f_List"> MB RAM</span></li>
+<li style="text-align: left; padding: 0px 0px 0px 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;"><span class="f_List">for texts in Chinese, Japanese, or Korean languages — </span><span class="f_List" style="font-weight: bold;">70</span><span class="f_List"> MB RAM</span></li>
+</ul>
+<p class="p_Normal">Library operation in the data capture scenario (for example, passport recognition) takes up to <span style="font-weight: bold;">170</span> MB RAM.</p>
+<h2 class="p_Heading2" style="page-break-after: avoid;"><a id="help" class="hmanchor"></a><span class="f_Heading2">More Documentation</span></h2>
+<p class="p_Normal">The distribution includes a <a href="help\RtrSdkDevelopersGuide.pdf" class="filelink">Developer's Guide</a> with a quick start section, full description of the API, details of technical capabilities and more. See also the <span style="font-weight: bold;"><a href="help\javadoc\index.html" class="filelink">help/javadoc</a></span> folder in the distribution pack root.</p>
+<h2 class="p_Heading2" style="page-break-after: avoid;"><a id="samples" class="hmanchor"></a><span class="f_Heading2">Getting Started: Code Samples</span></h2>
+<p class="p_Normal">The distribution pack includes code samples in Java, which demonstrate simple implementations of the basic scenarios and can help you start developing your own application. The samples are found in the <span style="font-weight: bold;"><a href="sample-datacapture" class="filelink">sample-datacapture</a></span>, <span style="font-weight: bold;"><a href="sample-textcapture" class="filelink">sample-textcapture</a></span> and <span style="font-weight: bold;"><a href="scenarios-datacapture" class="filelink">scenarios-datacapture</a></span> folders.</p>
+<p class="p_Normal">See the <span style="font-weight: bold;">Guided Tour &gt; Code Samples</span> section in the <a href="help\RtrSdkDevelopersGuide.pdf" class="filelink">Developer's Guide</a> for usage details.</p>
+
+</body>
+</html>

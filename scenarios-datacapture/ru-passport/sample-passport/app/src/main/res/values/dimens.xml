@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="frame_thickness">20dp</dimen>
+    <dimen name="camera_overlay_picture_padding">15dp</dimen>
+    <dimen name="frame_padding">10dp</dimen>
+    <dimen name="small_image_margin">16dp</dimen>
+    <dimen name="progress_circle_diameter">8dp</dimen>
+</resources>

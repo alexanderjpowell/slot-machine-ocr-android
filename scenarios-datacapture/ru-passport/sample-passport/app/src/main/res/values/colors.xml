@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303f9f</color>
+    <color name="accent">#FF4081</color>
+
+    <color name="fragments_background">#DD000000</color>
+    <color name="field_name">#80FFFFFF</color>
+    <color name="field_value">#FFFFFF</color>
+    <color name="final_field_name">#80000000</color>
+    <color name="final_field_value">#000000</color>
+    <color name="final_background">#ffffff</color>
+    <color name="separator_final_fragment">#000000</color>
+    <color name="final_result_button">#00FFFFFF</color>
+
+    <color name="settings_background">#000000</color>
+    <color name="line_boundaries">#FF808080</color>
+    <color name="frame_not_stable">#80ffbf00</color>
+    <color name="frame_stable">#805cff00</color>
+</resources>
