@@ -3,21 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="/Users/alexanderpowell/Desktop/abbyy-rtr-sdk-1.0.12.39-Android-ExtendedDC/sample-textcapture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jar="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/abbyy-rtr-sdk-1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/alexanderpowell/Desktop/abbyy-rtr-sdk-1.0.12.39-Android-ExtendedDC/sample-textcapture/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_cbc252c00dde6c52f374e745634b1ff6dcdbab4a.jar" />
+        sha1="232948d51ac277a13abf3f87b8f33d356d676962">
+        <dex dex="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-abbyy-rtr-sdk-1.0_a065ebcc1a323eb9d8be42575acd7e42d3de664c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/alexanderpowell/Desktop/abbyy-rtr-sdk-1.0.12.39-Android-ExtendedDC/sample-textcapture/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jar="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/alexanderpowell/Desktop/abbyy-rtr-sdk-1.0.12.39-Android-ExtendedDC/sample-textcapture/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_0368094a1e86d854975d730ef9b53318b952d3ce.jar" />
+        <dex dex="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_3dddf7815f60a1a4e3b89efae6a54217100b4301.jar" />
     </item>
     <item
         is-multidex="false"
@@ -36,6 +36,42 @@
         revision="23.0.2"
         sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
         <dex dex="/Users/alexanderpowell/Desktop/abbyy-rtr-sdk-1.0.12.39-Android-ExtendedDC/sample-textcapture/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_5f8e19135c17ebe3e1a006548c1be9eb486ba8ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_561db54b8f3f4506cda43606fba2d33b1ae348b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexanderpowell/Desktop/abbyy-rtr-sdk-1.0.12.39-Android-ExtendedDC/sample-textcapture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/alexanderpowell/Desktop/abbyy-rtr-sdk-1.0.12.39-Android-ExtendedDC/sample-textcapture/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_cbc252c00dde6c52f374e745634b1ff6dcdbab4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_1dafd2115528a0fb14ddbf84699ec65b06c76aec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alexanderpowell/Desktop/abbyy-rtr-sdk-1.0.12.39-Android-ExtendedDC/sample-textcapture/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/alexanderpowell/Desktop/abbyy-rtr-sdk-1.0.12.39-Android-ExtendedDC/sample-textcapture/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_0368094a1e86d854975d730ef9b53318b952d3ce.jar" />
     </item>
     <item
         is-multidex="false"

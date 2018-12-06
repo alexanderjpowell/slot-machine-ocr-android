@@ -1,4 +1,4 @@
-#Tue Dec 04 13:09:34 WITA 2018
-base.0=/Users/alexanderpowell/Desktop/abbyy-rtr-sdk-1.0.12.39-Android-ExtendedDC/sample-textcapture/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Thu Dec 06 15:46:16 WITA 2018
+base.0=/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/Users/alexanderpowell/Desktop/abbyy-rtr-sdk-1.0.12.39-Android-ExtendedDC/sample-textcapture/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
