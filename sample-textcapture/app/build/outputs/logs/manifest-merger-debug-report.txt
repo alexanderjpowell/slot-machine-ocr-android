@@ -1,22 +1,56 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/f1d1c0ec41fd20b6be2d1f5f1a04e3e3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/989edb1c2157d81a5cd53ffe620da272/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/3028959583244641595c01811096e229/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/9ebc3a0bbb30d968eaab8f3896fd96a4/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/50f1e192087ab41bc779c4530a3889fd/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/1169184f88f23b99fb6237655cccdeca/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/8bb450300d3b66553de1506ea42c162e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/e7b95adced77a1b8b445f41eb7f50bb8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/e961117560bdd684667b94278f6949bf/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:11-69
-	android:versionCode
-		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:5:5-18:19
-MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/f1d1c0ec41fd20b6be2d1f5f1a04e3e3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/f1d1c0ec41fd20b6be2d1f5f1a04e3e3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/989edb1c2157d81a5cd53ffe620da272/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/989edb1c2157d81a5cd53ffe620da272/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/3028959583244641595c01811096e229/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/3028959583244641595c01811096e229/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/9ebc3a0bbb30d968eaab8f3896fd96a4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/9ebc3a0bbb30d968eaab8f3896fd96a4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/50f1e192087ab41bc779c4530a3889fd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/50f1e192087ab41bc779c4530a3889fd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/1169184f88f23b99fb6237655cccdeca/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/1169184f88f23b99fb6237655cccdeca/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/8bb450300d3b66553de1506ea42c162e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/8bb450300d3b66553de1506ea42c162e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/e7b95adced77a1b8b445f41eb7f50bb8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/e7b95adced77a1b8b445f41eb7f50bb8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/e961117560bdd684667b94278f6949bf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/e961117560bdd684667b94278f6949bf/AndroidManifest.xml:25:5-29:19
 	android:label
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:7:9-41
 	android:icon
@@ -31,7 +65,7 @@ ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textca
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:11:13-62
 	android:name
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:10:13-41
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:13:13-16:29
 action#android.intent.action.MAIN
 ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:14:17-69
@@ -43,21 +77,24 @@ ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textca
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:15:27-74
 uses-feature#android.hardware.camera
 ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:20:5-84
-MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/abbyy-rtr-sdk-1.0/AndroidManifest.xml:15:5-17:35
+MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:15:5-17:35
+MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:15:5-17:35
 	android:required
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:20:58-81
 	android:name
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:20:19-57
 uses-feature#android.hardware.camera.autofocus
 ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:21:5-94
-MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/abbyy-rtr-sdk-1.0/AndroidManifest.xml:18:5-20:36
+MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:18:5-20:36
+MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:18:5-20:36
 	android:required
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:21:68-92
 	android:name
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:21:19-67
 uses-permission#android.permission.CAMERA
 ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:22:5-65
-MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/abbyy-rtr-sdk-1.0/AndroidManifest.xml:13:5-65
+MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:13:5-65
+MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:13:5-65
 	android:name
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:22:22-62
 uses-permission#android.permission.INTERNET
@@ -66,22 +103,67 @@ ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textca
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:25:22-64
 uses-sdk
 INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/abbyy-rtr-sdk-1.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
+MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:7:5-9:41
+MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/f1d1c0ec41fd20b6be2d1f5f1a04e3e3/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/f1d1c0ec41fd20b6be2d1f5f1a04e3e3/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/989edb1c2157d81a5cd53ffe620da272/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/989edb1c2157d81a5cd53ffe620da272/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/3028959583244641595c01811096e229/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/3028959583244641595c01811096e229/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/9ebc3a0bbb30d968eaab8f3896fd96a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/9ebc3a0bbb30d968eaab8f3896fd96a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/50f1e192087ab41bc779c4530a3889fd/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/50f1e192087ab41bc779c4530a3889fd/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/1169184f88f23b99fb6237655cccdeca/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/1169184f88f23b99fb6237655cccdeca/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/8bb450300d3b66553de1506ea42c162e/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/8bb450300d3b66553de1506ea42c162e/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/e7b95adced77a1b8b445f41eb7f50bb8/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/e7b95adced77a1b8b445f41eb7f50bb8/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/e961117560bdd684667b94278f6949bf/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/e961117560bdd684667b94278f6949bf/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/f1d1c0ec41fd20b6be2d1f5f1a04e3e3/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/abbyy-rtr-sdk-1.0/AndroidManifest.xml:11:5-81
+ADDED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/abbyy-rtr-sdk-1.0/AndroidManifest.xml:11:22-78
+		ADDED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:11:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/abbyy-rtr-sdk-1.0/AndroidManifest.xml:12:5-80
+ADDED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/abbyy-rtr-sdk-1.0/AndroidManifest.xml:12:22-77
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12 reason: com.abbyy.mobile.rtr.sewrapper requested WRITE_EXTERNAL_STORAGE
+		ADDED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:12:22-77
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/f1d1c0ec41fd20b6be2d1f5f1a04e3e3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/989edb1c2157d81a5cd53ffe620da272/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/989edb1c2157d81a5cd53ffe620da272/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/3028959583244641595c01811096e229/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0.aar/3028959583244641595c01811096e229/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/9ebc3a0bbb30d968eaab8f3896fd96a4/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/9ebc3a0bbb30d968eaab8f3896fd96a4/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/50f1e192087ab41bc779c4530a3889fd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/50f1e192087ab41bc779c4530a3889fd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/1169184f88f23b99fb6237655cccdeca/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/1169184f88f23b99fb6237655cccdeca/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/8bb450300d3b66553de1506ea42c162e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/8bb450300d3b66553de1506ea42c162e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/e7b95adced77a1b8b445f41eb7f50bb8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/e7b95adced77a1b8b445f41eb7f50bb8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/e961117560bdd684667b94278f6949bf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/e961117560bdd684667b94278f6949bf/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/f1d1c0ec41fd20b6be2d1f5f1a04e3e3/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/f1d1c0ec41fd20b6be2d1f5f1a04e3e3/AndroidManifest.xml:27:13-51
