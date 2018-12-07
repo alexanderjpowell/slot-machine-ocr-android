@@ -83,3 +83,5 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/abbyy-rtr-sdk-1.0/AndroidManifest.xml:12:5-80
 	android:name
 		ADDED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/exploded-aar/abbyy-rtr-sdk-1.0/AndroidManifest.xml:12:22-77
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12 reason: com.abbyy.mobile.rtr.sewrapper requested WRITE_EXTERNAL_STORAGE

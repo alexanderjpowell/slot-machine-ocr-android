@@ -1,0 +1,4 @@
+#Fri Dec 07 12:45:25 WITA 2018
+base.0=/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
