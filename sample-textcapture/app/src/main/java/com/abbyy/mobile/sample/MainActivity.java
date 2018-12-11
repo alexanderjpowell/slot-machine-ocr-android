@@ -45,6 +45,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.view.MenuItem;
 import android.support.v4.view.GravityCompat;
 import android.support.design.widget.NavigationView;
+import android.content.Intent;
 
 import com.abbyy.mobile.rtr.Engine;
 import com.abbyy.mobile.rtr.ITextCaptureService;
@@ -124,6 +125,7 @@ public class MainActivity extends AppCompatActivity {
 	private TextInputEditText progressive4;
 	private TextInputEditText progressive5;
 	private TextInputEditText progressive6;
+	private TextInputEditText slotMachineId;
 
 	private MaterialButton materialButton;
 
@@ -176,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
 					stopRecognition();
 					stableResultHasBeenReached = true;
 					//Toast.makeText(context, "Stable result!", Toast.LENGTH_SHORT).show();
-					//displayResult(lines);
+					displayResult(lines);
 					// Show result to the user. In this sample we whiten screen background and play
 					// the same sound that is used for pressing buttons
 					surfaceViewWithOverlay.setFillBackground( true );
@@ -185,20 +187,68 @@ public class MainActivity extends AppCompatActivity {
 			}
 		}
 
+		public int getFocusedEditText() {
+			int ret = 0;
+			if (progressive1.hasFocus())
+				ret = 1;
+			else if (progressive2.hasFocus())
+				ret = 2;
+			else if (progressive3.hasFocus())
+				ret = 3;
+			else if (progressive4.hasFocus())
+				ret = 4;
+			else if (progressive5.hasFocus())
+				ret = 5;
+			else if (progressive6.hasFocus())
+				ret = 6;
+			else if (slotMachineId.hasFocus())
+				ret = 7;
+			return ret;
+		}
+
 		public void displayResult(ITextCaptureService.TextLine[] lines) {
 			List<String> progressives = getDollarAmounts(lines);
+
 			if (progressives.size() == 1) {
-				if (progressive1.getText().equals("$XX.XX"))
+				int focus = getFocusedEditText();
+				if (focus == 1) {
 					progressive1.setText(progressives.get(0));
-				else if (progressive2.getText().equals("$XX.XX"))
+					progressive2.requestFocus();
+				} else if (focus == 2) {
 					progressive2.setText(progressives.get(0));
-				else if (progressive3.getText().equals("$XX.XX"))
+					progressive3.requestFocus();
+				} else if (focus == 3) {
 					progressive3.setText(progressives.get(0));
-				else if (progressive4.getText().equals("$XX.XX"))
+					progressive4.requestFocus();
+				} else if (focus == 4) {
 					progressive4.setText(progressives.get(0));
-				else if (progressive5.getText().equals("$XX.XX"))
+					progressive5.requestFocus();
+				} else if (focus == 5) {
 					progressive5.setText(progressives.get(0));
+					progressive6.requestFocus();
+				} else if (focus == 6) {
+					progressive6.setText(progressives.get(0));
+					slotMachineId.requestFocus();
+				} else if (focus == 7) {
+					//remove decimal point
+					slotMachineId.setText(progressives.get(0).toString().replace(".", ""));
+				}
 			}
+
+			/*if (progressives.size() == 1) {
+				if (progressive1.getText().equals("XX.XX"))
+					progressive1.setText(progressives.get(0));
+				else if (progressive2.getText().equals("XX.XX"))
+					progressive2.setText(progressives.get(0));
+				else if (progressive3.getText().equals("XX.XX"))
+					progressive3.setText(progressives.get(0));
+				else if (progressive4.getText().equals("XX.XX"))
+					progressive4.setText(progressives.get(0));
+				else if (progressive5.getText().equals("XX.XX"))
+					progressive5.setText(progressives.get(0));
+				else if (progressive6.getText().equals("XX.XX"))
+					progressive6.setText(progressives.get(0));
+			}*/
 		}
 
 		public List<String> getDollarAmounts(ITextCaptureService.TextLine[] lines)
@@ -206,9 +256,15 @@ public class MainActivity extends AppCompatActivity {
 			List<String> progressives = new ArrayList<String>();
 			for (int i = 0; i < lines.length; i++) {
 				String dollarValue = lines[i].Text;
+				//
+				if (!dollarValue.contains(".") && !dollarValue.contains(",") && !dollarValue.contains("$")) {
+					// slot machine id number
+					slotMachineId.requestFocus();
+				}
+				//
 				dollarValue = dollarValue.replaceAll("[^0-9]", "");
 				dollarValue = new StringBuilder(dollarValue).insert(dollarValue.length()-2, ".").toString();
-				dollarValue = "$" + dollarValue;
+				//dollarValue = "$" + dollarValue;
 				progressives.add(dollarValue);
 			}
 			return progressives;
@@ -794,32 +850,19 @@ public class MainActivity extends AppCompatActivity {
 		}
 	}
 
-	public void clearProgressive(View view)
-	{
-		/*switch(view.getId()) {
-			case R.id.clearProgressive1:
-				progressive1.setText("$XX.XX");
-				break;
-			case R.id.clearProgressive2:
-				progressive2.setText("$XX.XX");
-				break;
-			case R.id.clearProgressive3:
-				progressive3.setText("$XX.XX");
-				break;
-			case R.id.clearProgressive4:
-				progressive4.setText("$XX.XX");
-				break;
-			case R.id.clearProgressive5:
-				progressive5.setText("$XX.XX");
-				break;
-		}*/
-		//Toast.makeText(getApplicationContext(), "clicked", Toast.LENGTH_SHORT).show();
-	}
-
 	public void submitProgressives(View view)
 	{
-		Log.d("FAB","Floating Action Button Pressed");
-		Toast.makeText(getApplicationContext(), "Floating Action Button Pressed", Toast.LENGTH_SHORT).show();
+		Log.d("FAB","Progressives Submitted Successfully");
+		Toast.makeText(getApplicationContext(), "Progressives Submitted Successfully", Toast.LENGTH_SHORT).show();
+
+		// Clear Text Fields
+		progressive1.setText("XX.XX");
+		progressive2.setText("XX.XX");
+		progressive3.setText("XX.XX");
+		progressive4.setText("XX.XX");
+		progressive5.setText("XX.XX");
+		progressive6.setText("XX.XX");
+		slotMachineId.setText("XXXXXXXX");
 	}
 
 	public void startStopButtonOnClick(View view)
@@ -856,6 +899,12 @@ public class MainActivity extends AppCompatActivity {
 						// For example, swap UI fragments here
 						Toast.makeText(getApplicationContext(), "Item ID: " + menuItem.getTitle(), Toast.LENGTH_SHORT).show();
 
+						// Start New Activity
+						Intent intent = new Intent(getApplicationContext(), DisplayDataActivity.class);
+						//intent.putExtra(EXTRA_MESSAGE, message);
+						startActivity(intent);
+
+
 						return true;
 					}
 				});
@@ -866,6 +915,10 @@ public class MainActivity extends AppCompatActivity {
 		progressive4 = (TextInputEditText)findViewById(R.id.progressive4);
 		progressive5 = (TextInputEditText)findViewById(R.id.progressive5);
 		progressive6 = (TextInputEditText)findViewById(R.id.progressive6);
+		slotMachineId = (TextInputEditText)findViewById(R.id.slotMachineId);
+
+		// Focus on the first progressive EditText
+		progressive1.requestFocus();
 
         //textInputLayout1.setBoxStrokeColor(Color.WHITE);
 

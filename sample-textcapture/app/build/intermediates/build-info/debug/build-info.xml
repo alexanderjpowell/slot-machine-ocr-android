@@ -6,37 +6,31 @@
     density="560dpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1544541327518"
+    timestamp="1544545167417"
     token="-4796980604190541948"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="271" />
+        duration="161" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="14" />
+        duration="40" />
     <task
         name="verifier"
-        duration="20" />
+        duration="45" />
 
-    <artifact
-        location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/resources/instant-run/debug/resources-universal-debug.apk"
-        type="SPLIT" />
     <artifact
         location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/instant-run-apk/debug/app-universal-debug.apk"
-        type="SPLIT_MAIN" />
-    <artifact
-        location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
         location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -54,6 +48,9 @@
         location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
+        location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/resources/instant-run/debug/resources-universal-debug.apk"
+        type="SPLIT" />
+    <artifact
         location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
@@ -62,25 +59,22 @@
     <artifact
         location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
+    <artifact
+        location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/instant-run-apk/debug/app-universal-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1544541327518"
+        timestamp="1544545167417"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/resources/instant-run/debug/resources-universal-debug.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/instant-run-apk/debug/app-universal-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -98,6 +92,9 @@
             location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/resources/instant-run/debug/resources-universal-debug.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
@@ -106,6 +103,9 @@
         <artifact
             location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/instant-run-apk/debug/app-universal-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

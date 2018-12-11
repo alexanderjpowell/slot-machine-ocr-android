@@ -556,6 +556,10 @@
         "source": "/Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6629c2e862698955c6519d7d5ae2f21a/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/res/merged/debug/layout_activity_display_data.xml.flat",
+        "source": "/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/res/layout/activity_display_data.xml"
+    },
+    {
         "merged": "/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "/Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6629c2e862698955c6519d7d5ae2f21a/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },

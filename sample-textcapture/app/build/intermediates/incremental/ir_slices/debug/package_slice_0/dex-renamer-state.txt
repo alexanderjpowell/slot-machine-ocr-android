@@ -1,4 +1,4 @@
-#Tue Dec 11 22:33:30 WITA 2018
+#Tue Dec 11 23:47:58 WITA 2018
 base.0=/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

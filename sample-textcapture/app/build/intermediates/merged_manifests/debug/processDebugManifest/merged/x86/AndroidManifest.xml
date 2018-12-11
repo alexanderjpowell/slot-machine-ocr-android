@@ -39,7 +39,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.abbyy.rtr.sample.textcapture.DisplayDataActivity" />
+        <activity android:name="com.abbyy.mobile.sample.DisplayDataActivity" />
     </application>
 
 </manifest>
