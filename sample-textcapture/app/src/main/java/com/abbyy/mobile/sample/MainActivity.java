@@ -34,12 +34,17 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
+import android.support.v4.widget.DrawerLayout;
+import android.view.MenuItem;
+import android.support.v4.view.GravityCompat;
+import android.support.design.widget.NavigationView;
 
 import com.abbyy.mobile.rtr.Engine;
 import com.abbyy.mobile.rtr.ITextCaptureService;
@@ -48,7 +53,10 @@ import com.abbyy.mobile.rtr.Language;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends Activity {
+import android.support.v7.app.AppCompatActivity;
+
+//public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
 	// Licensing
 	//private static final String licenseFileName = "AbbyyRtrSdk.license";
@@ -118,6 +126,9 @@ public class MainActivity extends Activity {
 	private TextInputEditText progressive6;
 
 	private MaterialButton materialButton;
+
+	private DrawerLayout mDrawerLayout;
+	private NavigationView navigationView;
 
 	// Text displayed on start button
 	private static final String BUTTON_TEXT_START = "Start";
@@ -821,14 +832,33 @@ public class MainActivity extends Activity {
 	@Override
 	public void onCreate( Bundle savedInstanceState )
 	{
-		super.onCreate( savedInstanceState );
-		setContentView( R.layout.activity_main );
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
 
 		// Retrieve some ui components
 		warningTextView = (TextView)findViewById(R.id.warningText);
 		errorTextView = (TextView)findViewById(R.id.errorText);
 		materialButton = (MaterialButton)findViewById(R.id.material_icon_button);
 		textInputLayout1 = (TextInputLayout)findViewById(R.id.inputLayout);
+		mDrawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
+
+		navigationView = (NavigationView)findViewById(R.id.nav_view);
+		navigationView.setNavigationItemSelectedListener(
+				new NavigationView.OnNavigationItemSelectedListener() {
+					@Override
+					public boolean onNavigationItemSelected(MenuItem menuItem) {
+						// set item as selected to persist highlight
+						menuItem.setChecked(true);
+						// close drawer when item is tapped
+						mDrawerLayout.closeDrawers();
+
+						// Add code here to update the UI based on the item selected
+						// For example, swap UI fragments here
+						Toast.makeText(getApplicationContext(), "Item ID: " + menuItem.getTitle(), Toast.LENGTH_SHORT).show();
+
+						return true;
+					}
+				});
 
 		progressive1 = (TextInputEditText)findViewById(R.id.progressive1);
 		progressive2 = (TextInputEditText)findViewById(R.id.progressive2);
@@ -947,6 +977,7 @@ public class MainActivity extends Activity {
 		// Manually create preview surface. The only reason for this is to
 		// avoid making it public top level class
 		RelativeLayout layout = (RelativeLayout)materialButton.getParent();
+		//FrameLayout layout = (FrameLayout)materialButton.getParent();
 
 		surfaceViewWithOverlay = new SurfaceViewWithOverlay( this );
 		RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
@@ -966,6 +997,16 @@ public class MainActivity extends Activity {
 		}
 
 		layout.setOnClickListener(clickListener);
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+			case android.R.id.home:
+				mDrawerLayout.openDrawer(GravityCompat.START);
+				return true;
+		}
+		return super.onOptionsItemSelected(item);
 	}
 
 	@Override

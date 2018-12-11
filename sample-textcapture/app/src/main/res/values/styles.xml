@@ -1,14 +1,16 @@
 <resources>
-    <style name="AppTheme" parent="android:Theme.Holo">
+    <!--<style name="AppTheme" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowBackground">@null</item>
-    </style>
+    </style>-->
 
-    <style name="AppFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
+
     </style>
 </resources>

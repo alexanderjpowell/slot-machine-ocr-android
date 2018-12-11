@@ -1028,6 +1028,7 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id disableHome
+id drawer_layout
 id edit_query
 id end
 id end_padder
@@ -1073,6 +1074,11 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id nav_camera
+id nav_gallery
+id nav_manage
+id nav_slideshow
+id nav_view
 id navigation_header_container
 id never
 id none
@@ -1255,6 +1261,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout spinner_item
 layout support_simple_spinner_dropdown_item
+menu drawer_menu
 mipmap ic_launcher
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -1317,8 +1324,6 @@ style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
-style AppFullScreenTheme
-style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -1510,6 +1515,7 @@ style Base_Widget_MaterialComponents_TextInputLayout
 style CardView
 style CardView_Dark
 style CardView_Light
+style MyAppTheme
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:2:1-22:12
 MERGED from [com.android.support:design:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56b28efe15f79eda25e0c483aacf6a9/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6629c2e862698955c6519d7d5ae2f21a/AndroidManifest.xml:17:1-22:12
@@ -37,25 +37,25 @@ MERGED from [com.android.support:interpolator:28.0.0] /Users/alexanderpowell/.gr
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/78a7ec3edf941866c5a5bd45be1da898/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3128babbd023d022eed8dbd24ae80248/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f0b25b6e6263ada81a43ca3c2b961102/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:5:5-18:19
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support:design:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56b28efe15f79eda25e0c483aacf6a9/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56b28efe15f79eda25e0c483aacf6a9/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-compat:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6934cdc4e129cc2e9b629bbc3fd158dd/AndroidManifest.xml:22:5-94
@@ -69,51 +69,53 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexanderpow
 	android:icon
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:6:9-43
 	android:theme
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:8:9-50
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:8:9-42
 activity#com.abbyy.mobile.sample.MainActivity
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:9:9-17:20
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:9:9-18:20
 	android:label
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:12:13-45
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:13:13-45
 	android:configChanges
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:11:13-62
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:12:13-62
+	android:theme
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:11:13-46
 	android:name
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:10:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:13:13-16:29
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:15:17-77
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:15:27-74
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:16:27-74
 uses-feature#android.hardware.camera
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:20:5-84
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:21:5-84
 MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:15:5-17:35
 MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:15:5-17:35
 	android:required
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:20:58-81
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:21:58-81
 	android:name
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:20:19-57
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:21:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:21:5-94
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:22:5-94
 MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:18:5-20:36
 MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:18:5-20:36
 	android:required
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:21:68-92
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:22:68-92
 	android:name
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:21:19-67
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:22:19-67
 uses-permission#android.permission.CAMERA
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:22:5-65
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:23:5-65
 MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:13:5-65
 MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:13:5-65
 	android:name
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:22:22-62
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:23:22-62
 uses-permission#android.permission.INTERNET
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:25:5-67
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:25:22-64
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:26:22-64
 uses-sdk
 INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
