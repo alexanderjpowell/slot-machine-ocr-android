@@ -1,3 +1,3 @@
 Android Application using ABBYY RTR SDK
 
-![Preview](/Users/alexanderpowell/Desktop/slot-machine-ocr-android/screenshare.gif)
+![Preview](https://github.com/alexanderjpowell/slot-machine-ocr-android/blob/master/screenshare.mp4)
