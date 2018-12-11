@@ -19,12 +19,15 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
+import android.support.design.button.MaterialButton;
 import android.util.Log;
 import android.view.Display;
+import android.view.MotionEvent;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
+import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -33,6 +36,7 @@ import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.support.design.widget.TextInputEditText;
 
 import com.abbyy.mobile.rtr.Engine;
 import com.abbyy.mobile.rtr.ITextCaptureService;
@@ -107,11 +111,15 @@ public class MainActivity extends Activity {
 	private TextView progressive4;
 	private TextView progressive5;
 
+	private TextInputEditText progressive6;
+
 	private Button clearProgressive1; // Clear entry for TextView
 	private Button clearProgressive2;
 	private Button clearProgressive3;
 	private Button clearProgressive4;
 	private Button clearProgressive5;
+
+	private MaterialButton materialButton;
 
 	// Text displayed on start button
 	private static final String BUTTON_TEXT_START = "Start";
@@ -159,11 +167,11 @@ public class MainActivity extends Activity {
 					stopRecognition();
 					stableResultHasBeenReached = true;
 					//Toast.makeText(context, "Stable result!", Toast.LENGTH_SHORT).show();
-					displayResult(lines);
+					//displayResult(lines);
 					// Show result to the user. In this sample we whiten screen background and play
 					// the same sound that is used for pressing buttons
 					surfaceViewWithOverlay.setFillBackground( true );
-					startButton.playSoundEffect( android.view.SoundEffectConstants.CLICK );
+					//startButton.playSoundEffect( android.view.SoundEffectConstants.CLICK );
 				}
 			}
 		}
@@ -285,8 +293,10 @@ public class MainActivity extends Activity {
 		public void onAutoFocus( boolean success, Camera camera )
 		{
 			onAutoFocusFinished( success, camera );
-			startButton.setText( BUTTON_TEXT_START );
-			startButton.setEnabled( true );
+			//startButton.setText( BUTTON_TEXT_START );
+			//startButton.setEnabled( true );
+			materialButton.setText(BUTTON_TEXT_START);
+			materialButton.setEnabled(true);
 			if( startRecognitionWhenReady ) {
 				startRecognition();
 				startRecognitionWhenReady = false;
@@ -299,7 +309,8 @@ public class MainActivity extends Activity {
 		@Override public void onClick( View v )
 		{
 			// if BUTTON_TEXT_STARTING autofocus is already in progress, it is incorrect to interrupt it
-			if( !startButton.getText().equals( BUTTON_TEXT_STARTING ) ) {
+			//if( !startButton.getText().equals( BUTTON_TEXT_STARTING ) ) {
+			if( !materialButton.getText().equals( BUTTON_TEXT_STARTING ) ) {
 				autoFocus( simpleCameraAutoFocusCallback );
 			}
 		}
@@ -522,15 +533,18 @@ public class MainActivity extends Activity {
 		// Start the service
 		textCaptureService.start( cameraPreviewSize.width, cameraPreviewSize.height, orientation, areaOfInterest );
 		// Change the text on the start button to 'Stop'
-		startButton.setText( BUTTON_TEXT_STOP );
-		startButton.setEnabled( true );
+		//startButton.setText( BUTTON_TEXT_STOP );
+		//startButton.setEnabled( true );
+		materialButton.setText(BUTTON_TEXT_STOP);
+		materialButton.setEnabled(false);
 	}
 
 	// Stop recognition
 	void stopRecognition()
 	{
 		// Disable the 'Stop' button
-		startButton.setEnabled( false );
+		//startButton.setEnabled( false );
+		materialButton.setEnabled(false);
 
 		// Stop the service asynchronously to make application more responsive. Stopping can take some time
 		// waiting for all processing threads to stop
@@ -548,8 +562,10 @@ public class MainActivity extends Activity {
 					previewSurfaceHolder.setKeepScreenOn( false );
 				}
 				// Change the text on the stop button back to 'Start'
-				startButton.setText( BUTTON_TEXT_START );
-				startButton.setEnabled( true );
+				//startButton.setText( BUTTON_TEXT_START );
+				//startButton.setEnabled( true );
+				materialButton.setText(BUTTON_TEXT_START);
+				materialButton.setEnabled(true);
 			}
 		}.execute();
 	}
@@ -679,7 +695,7 @@ public class MainActivity extends Activity {
 	}
 
 	// Initialize recognition language spinner in the UI with available languages
-	private void initializeRecognitionLanguageSpinner()
+	/*private void initializeRecognitionLanguageSpinner()
 	{
 		final SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences( this );
 		final Spinner languageSpinner = (Spinner) findViewById( R.id.recognitionLanguageSpinner );
@@ -747,17 +763,20 @@ public class MainActivity extends Activity {
 			{
 			}
 		} );
-	}
+	}*/
 
 	// The 'Start' and 'Stop' button
 	public void onStartButtonClick( View view )
 	{
-		if( startButton.getText().equals( BUTTON_TEXT_STOP ) ) {
+		//if( startButton.getText().equals( BUTTON_TEXT_STOP ) ) {
+		if( materialButton.getText().equals( BUTTON_TEXT_STOP ) ) {
 			stopRecognition();
 		} else {
 			clearRecognitionResults();
-			startButton.setEnabled( false );
-			startButton.setText( BUTTON_TEXT_STARTING );
+			//startButton.setEnabled( false );
+			//startButton.setText( BUTTON_TEXT_STARTING );
+			materialButton.setEnabled( false );
+			materialButton.setText( BUTTON_TEXT_STARTING );
 			if( !isContinuousVideoFocusModeEnabled( camera ) ) {
 				autoFocus( startRecognitionCameraAutoFocusCallback );
 			} else {
@@ -768,7 +787,7 @@ public class MainActivity extends Activity {
 
 	public void clearProgressive(View view)
 	{
-		switch(view.getId()) {
+		/*switch(view.getId()) {
 			case R.id.clearProgressive1:
 				progressive1.setText("$XX.XX");
 				break;
@@ -784,7 +803,21 @@ public class MainActivity extends Activity {
 			case R.id.clearProgressive5:
 				progressive5.setText("$XX.XX");
 				break;
-		}
+		}*/
+		//Toast.makeText(getApplicationContext(), "clicked", Toast.LENGTH_SHORT).show();
+	}
+
+	public void submitProgressives(View view)
+	{
+		Log.d("FAB","Floating Action Button Pressed");
+		Toast.makeText(getApplicationContext(), "Floating Action Button Pressed", Toast.LENGTH_SHORT).show();
+	}
+
+	public void startStopButtonOnClick(View view)
+	{
+		Log.d("ABBYY OCR Button","startStopButton Pressed");
+		materialButton.setBackgroundColor(getResources().getColor(R.color.red));
+		materialButton.setText("STOP");
 	}
 
 	@Override
@@ -796,25 +829,46 @@ public class MainActivity extends Activity {
 		// Retrieve some ui components
 		warningTextView = (TextView) findViewById( R.id.warningText );
 		errorTextView = (TextView) findViewById( R.id.errorText );
-		startButton = (Button) findViewById( R.id.startButton );
+		//startButton = (Button) findViewById( R.id.startButton );
+		materialButton = (MaterialButton) findViewById( R.id.material_icon_button );
 
-		progressive1 = (TextView)findViewById(R.id.progressive1);
-		progressive2 = (TextView)findViewById(R.id.progressive2);
-		progressive3 = (TextView)findViewById(R.id.progressive3);
-		progressive4 = (TextView)findViewById(R.id.progressive4);
-		progressive5 = (TextView)findViewById(R.id.progressive5);
-		clearProgressive1 = (Button)findViewById(R.id.clearProgressive1);
-		clearProgressive2 = (Button)findViewById(R.id.clearProgressive2);
-		clearProgressive3 = (Button)findViewById(R.id.clearProgressive3);
-		clearProgressive4 = (Button)findViewById(R.id.clearProgressive4);
-		clearProgressive5 = (Button)findViewById(R.id.clearProgressive5);
+		progressive6 = (TextInputEditText)findViewById(R.id.progressive6);
+		progressive6.setOnTouchListener(new OnTouchListener() {
+			@Override
+			public boolean onTouch(View view, MotionEvent motionEvent) {
+				final int DRAWABLE_LEFT = 0;
+				final int DRAWABLE_TOP = 1;
+				final int DRAWABLE_RIGHT = 2;
+				final int DRAWABLE_BOTTOM = 3;
+
+				if(motionEvent.getAction() == MotionEvent.ACTION_UP) {
+					if(motionEvent.getRawX() >= (progressive6.getRight() - progressive6.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
+						// your action here
+						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
+						return true;
+					}
+				}
+				return false;
+			}
+		});
+
+		//progressive1 = (TextView)findViewById(R.id.progressive1);
+		//progressive2 = (TextView)findViewById(R.id.progressive2);
+		//progressive3 = (TextView)findViewById(R.id.progressive3);
+		//progressive4 = (TextView)findViewById(R.id.progressive4);
+		//progressive5 = (TextView)findViewById(R.id.progressive5);
+		//clearProgressive1 = (Button)findViewById(R.id.clearProgressive1);
+		//clearProgressive2 = (Button)findViewById(R.id.clearProgressive2);
+		//clearProgressive3 = (Button)findViewById(R.id.clearProgressive3);
+		//clearProgressive4 = (Button)findViewById(R.id.clearProgressive4);
+		//clearProgressive5 = (Button)findViewById(R.id.clearProgressive5);
 
 		// Initialize the recognition language spinner
-		initializeRecognitionLanguageSpinner();
+		//initializeRecognitionLanguageSpinner();
 
 		// Manually create preview surface. The only reason for this is to
 		// avoid making it public top level class
-		RelativeLayout layout = (RelativeLayout) startButton.getParent();
+		RelativeLayout layout = (RelativeLayout)materialButton.getParent();
 
 		surfaceViewWithOverlay = new SurfaceViewWithOverlay( this );
 		RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
@@ -841,7 +895,8 @@ public class MainActivity extends Activity {
 	{
 		super.onResume();
 		// Reinitialize the camera, restart the preview and recognition if required
-		startButton.setEnabled( false );
+		//startButton.setEnabled( false );
+		materialButton.setEnabled( false );
 		clearRecognitionResults();
 		startRecognitionWhenReady = startRecognitionOnAppStart;
 		camera = Camera.open();
@@ -859,7 +914,8 @@ public class MainActivity extends Activity {
 		if( textCaptureService != null ) {
 			textCaptureService.stop();
 		}
-		startButton.setText( BUTTON_TEXT_START );
+		//startButton.setText( BUTTON_TEXT_START );
+		materialButton.setText(BUTTON_TEXT_START);
 		// Clear recognition results
 		clearRecognitionResults();
 		stopPreviewAndReleaseCamera();
@@ -927,7 +983,7 @@ public class MainActivity extends Activity {
 			Log.d("Rect Bottom", Integer.toString(newValue.bottom));
 			Log.d("Rect Left", Integer.toString(newValue.left));
 			Log.d("Rect Right", Integer.toString(newValue.right));
-			Rect newRectangle = new Rect(128, 220, 592, 420);
+			Rect newRectangle = new Rect(128, 120, 592, 320);
 			//
 			//areaOfInterest = newValue;
 			areaOfInterest = newRectangle;

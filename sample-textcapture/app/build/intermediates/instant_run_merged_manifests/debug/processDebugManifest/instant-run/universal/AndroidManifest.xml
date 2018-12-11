@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="28" />
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -23,11 +23,12 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppFullScreenTheme" >
         <activity
             android:name="com.abbyy.mobile.sample.MainActivity"
             android:configChanges="keyboardHidden|screenSize"
@@ -38,10 +39,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.0.0" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

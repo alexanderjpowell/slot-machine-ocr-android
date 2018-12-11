@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Dec 07 12:59:13 WITA 2018
+#Fri Dec 07 16:41:46 WITA 2018
 56.path=translation/Menu_ID-EN.trdic
 5.base=/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
 42.base=/Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
