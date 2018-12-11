@@ -9,10 +9,12 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.ImageFormat;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Point;
+import android.graphics.PorterDuff;
 import android.graphics.Rect;
 import android.hardware.Camera;
 import android.os.AsyncTask;
@@ -37,6 +39,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.support.design.widget.TextInputEditText;
+import android.support.design.widget.TextInputLayout;
 
 import com.abbyy.mobile.rtr.Engine;
 import com.abbyy.mobile.rtr.ITextCaptureService;
@@ -101,23 +104,18 @@ public class MainActivity extends Activity {
 	private Handler handler = new Handler(); // Posting some delayed actions;
 
 	// UI components
-	private Button startButton; // The start button
+	//private Button startButton; // The start button
 	private TextView warningTextView; // Show warnings from recognizer
 	private TextView errorTextView; // Show errors from recognizer
 
-	private TextView progressive1; // Progressive TextViews
-	private TextView progressive2;
-	private TextView progressive3;
-	private TextView progressive4;
-	private TextView progressive5;
+    private TextInputLayout textInputLayout1;
 
+	private TextInputEditText progressive1;
+	private TextInputEditText progressive2;
+	private TextInputEditText progressive3;
+	private TextInputEditText progressive4;
+	private TextInputEditText progressive5;
 	private TextInputEditText progressive6;
-
-	private Button clearProgressive1; // Clear entry for TextView
-	private Button clearProgressive2;
-	private Button clearProgressive3;
-	private Button clearProgressive4;
-	private Button clearProgressive5;
 
 	private MaterialButton materialButton;
 
@@ -827,23 +825,29 @@ public class MainActivity extends Activity {
 		setContentView( R.layout.activity_main );
 
 		// Retrieve some ui components
-		warningTextView = (TextView) findViewById( R.id.warningText );
-		errorTextView = (TextView) findViewById( R.id.errorText );
-		//startButton = (Button) findViewById( R.id.startButton );
-		materialButton = (MaterialButton) findViewById( R.id.material_icon_button );
+		warningTextView = (TextView)findViewById(R.id.warningText);
+		errorTextView = (TextView)findViewById(R.id.errorText);
+		materialButton = (MaterialButton)findViewById(R.id.material_icon_button);
+		textInputLayout1 = (TextInputLayout)findViewById(R.id.inputLayout);
 
+		progressive1 = (TextInputEditText)findViewById(R.id.progressive1);
+		progressive2 = (TextInputEditText)findViewById(R.id.progressive2);
+		progressive3 = (TextInputEditText)findViewById(R.id.progressive3);
+		progressive4 = (TextInputEditText)findViewById(R.id.progressive4);
+		progressive5 = (TextInputEditText)findViewById(R.id.progressive5);
 		progressive6 = (TextInputEditText)findViewById(R.id.progressive6);
-		progressive6.setOnTouchListener(new OnTouchListener() {
+
+        //textInputLayout1.setBoxStrokeColor(Color.WHITE);
+
+		progressive1.setOnTouchListener(new OnTouchListener() {
 			@Override
 			public boolean onTouch(View view, MotionEvent motionEvent) {
-				final int DRAWABLE_LEFT = 0;
-				final int DRAWABLE_TOP = 1;
 				final int DRAWABLE_RIGHT = 2;
-				final int DRAWABLE_BOTTOM = 3;
 
 				if(motionEvent.getAction() == MotionEvent.ACTION_UP) {
-					if(motionEvent.getRawX() >= (progressive6.getRight() - progressive6.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
+					if(motionEvent.getRawX() >= (progressive1.getRight() - progressive1.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
 						// your action here
+						progressive1.setText("");
 						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
 						return true;
 					}
@@ -852,16 +856,90 @@ public class MainActivity extends Activity {
 			}
 		});
 
-		//progressive1 = (TextView)findViewById(R.id.progressive1);
-		//progressive2 = (TextView)findViewById(R.id.progressive2);
-		//progressive3 = (TextView)findViewById(R.id.progressive3);
-		//progressive4 = (TextView)findViewById(R.id.progressive4);
-		//progressive5 = (TextView)findViewById(R.id.progressive5);
-		//clearProgressive1 = (Button)findViewById(R.id.clearProgressive1);
-		//clearProgressive2 = (Button)findViewById(R.id.clearProgressive2);
-		//clearProgressive3 = (Button)findViewById(R.id.clearProgressive3);
-		//clearProgressive4 = (Button)findViewById(R.id.clearProgressive4);
-		//clearProgressive5 = (Button)findViewById(R.id.clearProgressive5);
+		progressive2.setOnTouchListener(new OnTouchListener() {
+			@Override
+			public boolean onTouch(View view, MotionEvent motionEvent) {
+				final int DRAWABLE_RIGHT = 2;
+
+				if(motionEvent.getAction() == MotionEvent.ACTION_UP) {
+					if(motionEvent.getRawX() >= (progressive2.getRight() - progressive2.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
+						// your action here
+						progressive2.setText("");
+						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
+						return true;
+					}
+				}
+				return false;
+			}
+		});
+
+		progressive3.setOnTouchListener(new OnTouchListener() {
+			@Override
+			public boolean onTouch(View view, MotionEvent motionEvent) {
+				final int DRAWABLE_RIGHT = 2;
+
+				if(motionEvent.getAction() == MotionEvent.ACTION_UP) {
+					if(motionEvent.getRawX() >= (progressive3.getRight() - progressive3.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
+						// your action here
+						progressive3.setText("");
+						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
+						return true;
+					}
+				}
+				return false;
+			}
+		});
+
+		progressive4.setOnTouchListener(new OnTouchListener() {
+			@Override
+			public boolean onTouch(View view, MotionEvent motionEvent) {
+				final int DRAWABLE_RIGHT = 2;
+
+				if(motionEvent.getAction() == MotionEvent.ACTION_UP) {
+					if(motionEvent.getRawX() >= (progressive4.getRight() - progressive4.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
+						// your action here
+						progressive4.setText("");
+						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
+						return true;
+					}
+				}
+				return false;
+			}
+		});
+
+		progressive5.setOnTouchListener(new OnTouchListener() {
+			@Override
+			public boolean onTouch(View view, MotionEvent motionEvent) {
+				final int DRAWABLE_RIGHT = 2;
+
+				if(motionEvent.getAction() == MotionEvent.ACTION_UP) {
+					if(motionEvent.getRawX() >= (progressive5.getRight() - progressive5.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
+						// your action here
+						progressive5.setText("");
+						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
+						return true;
+					}
+				}
+				return false;
+			}
+		});
+
+		progressive6.setOnTouchListener(new OnTouchListener() {
+			@Override
+			public boolean onTouch(View view, MotionEvent motionEvent) {
+				final int DRAWABLE_RIGHT = 2;
+
+				if(motionEvent.getAction() == MotionEvent.ACTION_UP) {
+					if(motionEvent.getRawX() >= (progressive6.getRight() - progressive6.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
+						// your action here
+						progressive6.setText("");
+						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
+						return true;
+					}
+				}
+				return false;
+			}
+		});
 
 		// Initialize the recognition language spinner
 		//initializeRecognitionLanguageSpinner();

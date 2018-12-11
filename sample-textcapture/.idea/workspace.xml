@@ -37,34 +37,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/abbyy/mobile/sample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-309">
-              <caret line="806" column="10" selection-start-line="806" selection-start-column="10" selection-end-line="806" selection-end-column="10" />
+            <state relative-caret-position="369">
+              <caret line="839" column="10" selection-start-line="839" selection-start-column="10" selection-end-line="839" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7929#7937#0" expanded="true" />
-                <element signature="e#8422#8452#0" expanded="true" />
-                <element signature="e#9418#9756#0" expanded="true" />
-                <element signature="e#9755#9756#0" expanded="true" />
-                <element signature="e#10692#10873#0" expanded="true" />
-                <element signature="e#10872#10873#0" expanded="true" />
-                <element signature="e#10972#11130#0" expanded="true" />
-                <element signature="e#11129#11130#0" expanded="true" />
-                <element signature="e#11318#11747#0" expanded="true" />
-                <element signature="e#11746#11747#0" expanded="true" />
-                <element signature="e#11817#12182#0" expanded="true" />
-                <element signature="e#12181#12182#0" expanded="true" />
-                <element signature="e#12771#12801#0" expanded="true" />
-                <element signature="e#17682#17712#0" expanded="true" />
-                <element signature="e#18436#18593#0" expanded="true" />
-                <element signature="e#18592#18593#0" expanded="true" />
-                <element signature="e#19011#19041#0" expanded="true" />
-                <element signature="e#19378#19408#0" expanded="true" />
-                <element signature="e#19730#19760#0" expanded="true" />
-                <element signature="e#30753#30885#0" expanded="true" />
-                <element signature="e#30884#30885#0" expanded="true" />
                 <element signature="e#35113#35114#0" expanded="true" />
                 <element signature="e#35143#35144#0" expanded="true" />
               </folding>
@@ -72,14 +51,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="156" column="64" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="64" />
+            <state relative-caret-position="4125">
+              <caret line="275" column="44" lean-forward="true" selection-start-line="275" selection-start-column="44" selection-end-line="275" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -87,8 +66,8 @@
       <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -112,13 +91,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -135,8 +107,9 @@
       <find>preview</find>
       <find>areaofinterest</find>
       <find>startButton</find>
-      <find>oncre</find>
       <find>toast</find>
+      <find>clicked</find>
+      <find>oncre</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -2399,9 +2372,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/abbyy/mobile/sample/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/abbyy/mobile/sample/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2728,16 +2701,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -2750,8 +2723,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/abbyy/mobile/sample/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="839" column="10" selection-start-line="839" selection-start-column="10" selection-end-line="839" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#35113#35114#0" expanded="true" />
+            <element signature="e#35143#35144#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2760,41 +2745,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="156" column="64" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/abbyy/mobile/sample/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
-          <caret line="806" column="10" selection-start-line="806" selection-start-column="10" selection-end-line="806" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7929#7937#0" expanded="true" />
-            <element signature="e#8422#8452#0" expanded="true" />
-            <element signature="e#9418#9756#0" expanded="true" />
-            <element signature="e#9755#9756#0" expanded="true" />
-            <element signature="e#10692#10873#0" expanded="true" />
-            <element signature="e#10872#10873#0" expanded="true" />
-            <element signature="e#10972#11130#0" expanded="true" />
-            <element signature="e#11129#11130#0" expanded="true" />
-            <element signature="e#11318#11747#0" expanded="true" />
-            <element signature="e#11746#11747#0" expanded="true" />
-            <element signature="e#11817#12182#0" expanded="true" />
-            <element signature="e#12181#12182#0" expanded="true" />
-            <element signature="e#12771#12801#0" expanded="true" />
-            <element signature="e#17682#17712#0" expanded="true" />
-            <element signature="e#18436#18593#0" expanded="true" />
-            <element signature="e#18592#18593#0" expanded="true" />
-            <element signature="e#19011#19041#0" expanded="true" />
-            <element signature="e#19378#19408#0" expanded="true" />
-            <element signature="e#19730#19760#0" expanded="true" />
-            <element signature="e#30753#30885#0" expanded="true" />
-            <element signature="e#30884#30885#0" expanded="true" />
-            <element signature="e#35113#35114#0" expanded="true" />
-            <element signature="e#35143#35144#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4125">
+          <caret line="275" column="44" lean-forward="true" selection-start-line="275" selection-start-column="44" selection-end-line="275" selection-end-column="44" />
         </state>
       </provider>
     </entry>
