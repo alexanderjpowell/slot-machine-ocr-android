@@ -207,48 +207,61 @@ public class MainActivity extends AppCompatActivity {
 		}
 
 		public void displayResult(ITextCaptureService.TextLine[] lines) {
-			List<String> progressives = getDollarAmounts(lines);
+			//List<String> progressives = getDollarAmounts(lines);
+			String progressive = getSingleProgressive(lines);
 
-			if (progressives.size() == 1) {
-				int focus = getFocusedEditText();
-				if (focus == 1) {
-					progressive1.setText(progressives.get(0));
-					progressive2.requestFocus();
-				} else if (focus == 2) {
-					progressive2.setText(progressives.get(0));
-					progressive3.requestFocus();
-				} else if (focus == 3) {
-					progressive3.setText(progressives.get(0));
-					progressive4.requestFocus();
-				} else if (focus == 4) {
-					progressive4.setText(progressives.get(0));
-					progressive5.requestFocus();
-				} else if (focus == 5) {
-					progressive5.setText(progressives.get(0));
-					progressive6.requestFocus();
-				} else if (focus == 6) {
-					progressive6.setText(progressives.get(0));
-					slotMachineId.requestFocus();
-				} else if (focus == 7) {
-					//remove decimal point
-					slotMachineId.setText(progressives.get(0).toString().replace(".", ""));
+			int focus = getFocusedEditText();
+			if (focus == 7) {
+				slotMachineId.setText(progressive.replace(".", ""));
+				progressive1.requestFocus();
+			} else if (focus == 1) {
+				progressive1.setText(progressive);
+				progressive2.requestFocus();
+			} else if (focus == 2) {
+				progressive2.setText(progressive);
+				progressive3.requestFocus();
+			} else if (focus == 3) {
+				progressive3.setText(progressive);
+				progressive4.requestFocus();
+			} else if (focus == 4) {
+				progressive4.setText(progressive);
+				progressive5.requestFocus();
+			} else if (focus == 5) {
+				progressive5.setText(progressive);
+				progressive6.requestFocus();
+			} else if (focus == 6) {
+				progressive6.setText(progressive);
+				//slotMachineId.requestFocus();
+			}
+		}
+
+		public String getSingleProgressive(ITextCaptureService.TextLine[] lines)
+		{
+			//String progressive = "";
+			List<String> progressives = new ArrayList<String>();
+			for (int i = 0; i < lines.length; i++) {
+				String value = lines[i].Text;
+				if (value.startsWith("$")) {
+					value = value.replaceAll("[^0-9]", "");
+					value = new StringBuilder(value).insert(value.length()-2, ".").toString();
+					return value;
 				}
+				if (value.contains(".")) {
+					if (value.indexOf(".") == value.length() - 3 && value.length() >= 5) {
+						value = value.replaceAll("[^0-9]", "");
+						value = new StringBuilder(value).insert(value.length()-2, ".").toString();
+						return value;
+					}
+				}
+				if (value.replaceAll("[^0-9]", "").length() >= 4) {
+					value = value.replaceAll("[^0-9]", "");
+					value = new StringBuilder(value).insert(value.length()-2, ".").toString();
+					return value;
+				}
+				progressives.add(lines[i].Text);
 			}
 
-			/*if (progressives.size() == 1) {
-				if (progressive1.getText().equals("XX.XX"))
-					progressive1.setText(progressives.get(0));
-				else if (progressive2.getText().equals("XX.XX"))
-					progressive2.setText(progressives.get(0));
-				else if (progressive3.getText().equals("XX.XX"))
-					progressive3.setText(progressives.get(0));
-				else if (progressive4.getText().equals("XX.XX"))
-					progressive4.setText(progressives.get(0));
-				else if (progressive5.getText().equals("XX.XX"))
-					progressive5.setText(progressives.get(0));
-				else if (progressive6.getText().equals("XX.XX"))
-					progressive6.setText(progressives.get(0));
-			}*/
+			return "XX.XX";
 		}
 
 		public List<String> getDollarAmounts(ITextCaptureService.TextLine[] lines)
@@ -640,7 +653,7 @@ public class MainActivity extends AppCompatActivity {
 	{
 		stableResultHasBeenReached = false;
 		surfaceViewWithOverlay.setLines( null, ITextCaptureService.ResultStabilityStatus.NotReady );
-		surfaceViewWithOverlay.setFillBackground( false );
+		surfaceViewWithOverlay.setFillBackground( true );
 	}
 
 	// Returns orientation of camera
@@ -850,6 +863,7 @@ public class MainActivity extends AppCompatActivity {
 		}
 	}
 
+	// Floating Action Button onClick
 	public void submitProgressives(View view)
 	{
 		Log.d("FAB","Progressives Submitted Successfully");
@@ -863,6 +877,10 @@ public class MainActivity extends AppCompatActivity {
 		progressive5.setText("XX.XX");
 		progressive6.setText("XX.XX");
 		slotMachineId.setText("XXXXXXXX");
+
+		slotMachineId.requestFocus();
+
+		clearRecognitionResults();
 	}
 
 	public void startStopButtonOnClick(View view)
@@ -917,8 +935,8 @@ public class MainActivity extends AppCompatActivity {
 		progressive6 = (TextInputEditText)findViewById(R.id.progressive6);
 		slotMachineId = (TextInputEditText)findViewById(R.id.slotMachineId);
 
-		// Focus on the first progressive EditText
-		progressive1.requestFocus();
+		// Focus on the slot machine id EditText
+		slotMachineId.requestFocus();
 
         //textInputLayout1.setBoxStrokeColor(Color.WHITE);
 
@@ -931,6 +949,7 @@ public class MainActivity extends AppCompatActivity {
 					if(motionEvent.getRawX() >= (progressive1.getRight() - progressive1.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
 						// your action here
 						progressive1.setText("");
+						progressive1.requestFocus();
 						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
 						return true;
 					}
@@ -948,6 +967,7 @@ public class MainActivity extends AppCompatActivity {
 					if(motionEvent.getRawX() >= (progressive2.getRight() - progressive2.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
 						// your action here
 						progressive2.setText("");
+						progressive2.requestFocus();
 						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
 						return true;
 					}
@@ -965,6 +985,7 @@ public class MainActivity extends AppCompatActivity {
 					if(motionEvent.getRawX() >= (progressive3.getRight() - progressive3.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
 						// your action here
 						progressive3.setText("");
+						progressive3.requestFocus();
 						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
 						return true;
 					}
@@ -982,6 +1003,7 @@ public class MainActivity extends AppCompatActivity {
 					if(motionEvent.getRawX() >= (progressive4.getRight() - progressive4.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
 						// your action here
 						progressive4.setText("");
+						progressive4.requestFocus();
 						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
 						return true;
 					}
@@ -999,6 +1021,7 @@ public class MainActivity extends AppCompatActivity {
 					if(motionEvent.getRawX() >= (progressive5.getRight() - progressive5.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
 						// your action here
 						progressive5.setText("");
+						progressive5.requestFocus();
 						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
 						return true;
 					}
@@ -1016,6 +1039,25 @@ public class MainActivity extends AppCompatActivity {
 					if(motionEvent.getRawX() >= (progressive6.getRight() - progressive6.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
 						// your action here
 						progressive6.setText("");
+						progressive6.requestFocus();
+						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
+						return true;
+					}
+				}
+				return false;
+			}
+		});
+
+		slotMachineId.setOnTouchListener(new OnTouchListener() {
+			@Override
+			public boolean onTouch(View view, MotionEvent motionEvent) {
+				final int DRAWABLE_RIGHT = 2;
+
+				if(motionEvent.getAction() == MotionEvent.ACTION_UP) {
+					if(motionEvent.getRawX() >= (slotMachineId.getRight() - slotMachineId.getCompoundDrawables()[DRAWABLE_RIGHT].getBounds().width())) {
+						// your action here
+						slotMachineId.setText("");
+						slotMachineId.requestFocus();
 						Toast.makeText(getApplicationContext(), "Pressed", Toast.LENGTH_SHORT).show();
 						return true;
 					}
@@ -1108,6 +1150,7 @@ public class MainActivity extends AppCompatActivity {
 		private Paint lineBoundariesPaint;
 		private Paint backgroundPaint;
 		private Paint areaOfInterestPaint;
+		private Paint editTextBackgroundPaint;
 
 		public SurfaceViewWithOverlay( Context context )
 		{
@@ -1121,6 +1164,11 @@ public class MainActivity extends AppCompatActivity {
 			areaOfInterestPaint = new Paint();
 			areaOfInterestPaint.setARGB( 100, 0, 0, 0 );
 			areaOfInterestPaint.setStyle( Paint.Style.FILL );
+
+			//
+			editTextBackgroundPaint = new Paint();
+			editTextBackgroundPaint.setARGB(200, 0, 0, 0);
+			editTextBackgroundPaint.setStyle(Paint.Style.FILL);
 		}
 
 		public void setScaleX( int nominator, int denominator )
@@ -1135,7 +1183,7 @@ public class MainActivity extends AppCompatActivity {
 			scaleDenominatorY = denominator;
 		}
 
-		public void setFillBackground( Boolean newValue )
+		public void setFillBackground(Boolean newValue)
 		{
 			if( newValue ) {
 				backgroundPaint = new Paint();
@@ -1155,7 +1203,7 @@ public class MainActivity extends AppCompatActivity {
 			Log.d("Rect Bottom", Integer.toString(newValue.bottom));
 			Log.d("Rect Left", Integer.toString(newValue.left));
 			Log.d("Rect Right", Integer.toString(newValue.right));
-			Rect newRectangle = new Rect(128, 120, 592, 320);
+			Rect newRectangle = new Rect(78, 120, 642, 240);
 			//
 			//areaOfInterest = newValue;
 			areaOfInterest = newRectangle;
@@ -1229,6 +1277,11 @@ public class MainActivity extends AppCompatActivity {
 					canvas.drawRect( 0, 0, width, height, backgroundPaint );
 				}
 			}
+
+			//
+			canvas.drawRect( 0, 700, width, height, editTextBackgroundPaint );
+			//
+
 			if( areaOfInterest != null ) {
 				// Shading and clipping the area of interest
 				int left = ( areaOfInterest.left * scaleNominatorX ) / scaleDenominatorX;

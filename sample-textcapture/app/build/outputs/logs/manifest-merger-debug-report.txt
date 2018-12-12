@@ -1,17 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-35:12
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-39:12
 MERGED from [:abbyy-rtr-sdk-1.0:] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/abbyy-rtr-sdk-1.0.aar/4cb3237c69f81f6f657e099fcbeb4841/AndroidManifest.xml:2:1-22:12
 MERGED from [com.android.support:design:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56b28efe15f79eda25e0c483aacf6a9/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6629c2e862698955c6519d7d5ae2f21a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/9c43dc7df890c1f266eb52bd28238320/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/95a9d17a978a24b04d71bce9b95695e0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/345f96cd969d1a1a1ca77dcad767d318/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/3f6f5b72b952c163ec45f2f49074dda4/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d01ad867fa10c1d7cea57a4faa1fbc4b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b5d197d7211d2b51d1686a5e19731729/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/345f96cd969d1a1a1ca77dcad767d318/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/286014f227ab75663219ac66fa7eb09e/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/aa69c1a962e1c4a7f66c644aa6a0b74f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3603212ccf3b9c0879c80635bb902c67/AndroidManifest.xml:17:1-22:12
@@ -28,7 +29,6 @@ MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alexanderpow
 MERGED from [com.android.support:support-compat:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6934cdc4e129cc2e9b629bbc3fd158dd/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/767ff3897fdfc4e7b61d0c0e85821495/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/36d99d8b63de6db5cb7e1c71b161989d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/3f6f5b72b952c163ec45f2f49074dda4/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1ed32faa02a9e810b675ea79f5131ac6/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1a2075030873e4d6e9818dbe21240944/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/87a665d7eb8bf9c0875f7704a8e3c569/AndroidManifest.xml:17:1-22:12
@@ -38,20 +38,20 @@ MERGED from [com.android.support:interpolator:28.0.0] /Users/alexanderpowell/.gr
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/78a7ec3edf941866c5a5bd45be1da898/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3128babbd023d022eed8dbd24ae80248/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f0b25b6e6263ada81a43ca3c2b961102/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-39:12
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:1-39:12
 		INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:2:11-69
@@ -82,7 +82,7 @@ ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textca
 	android:name
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:15:22-64
 application
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:17:5-33:19
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:17:5-37:19
 MERGED from [com.android.support:design:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56b28efe15f79eda25e0c483aacf6a9/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56b28efe15f79eda25e0c483aacf6a9/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/95a9d17a978a24b04d71bce9b95695e0/AndroidManifest.xml:9:5-20
@@ -120,9 +120,11 @@ ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textca
 	android:name
 		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:29:27-74
 activity#com.abbyy.mobile.sample.DisplayDataActivity
-ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:32:9-66
+ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:32:9-36:20
+	android:theme
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:34:13-71
 	android:name
-		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:32:19-54
+		ADDED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml:33:13-48
 uses-sdk
 INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/alexanderpowell/Desktop/slot-machine-ocr-android/sample-textcapture/app/src/main/AndroidManifest.xml
@@ -137,12 +139,14 @@ MERGED from [com.android.support:support-v4:28.0.0] /Users/alexanderpowell/.grad
 MERGED from [com.android.support:support-v4:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/9c43dc7df890c1f266eb52bd28238320/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/95a9d17a978a24b04d71bce9b95695e0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/95a9d17a978a24b04d71bce9b95695e0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/345f96cd969d1a1a1ca77dcad767d318/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/345f96cd969d1a1a1ca77dcad767d318/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/3f6f5b72b952c163ec45f2f49074dda4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/3f6f5b72b952c163ec45f2f49074dda4/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d01ad867fa10c1d7cea57a4faa1fbc4b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d01ad867fa10c1d7cea57a4faa1fbc4b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b5d197d7211d2b51d1686a5e19731729/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b5d197d7211d2b51d1686a5e19731729/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/345f96cd969d1a1a1ca77dcad767d318/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/345f96cd969d1a1a1ca77dcad767d318/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/286014f227ab75663219ac66fa7eb09e/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/286014f227ab75663219ac66fa7eb09e/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/aa69c1a962e1c4a7f66c644aa6a0b74f/AndroidManifest.xml:20:5-44
@@ -175,8 +179,6 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexanderpow
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/767ff3897fdfc4e7b61d0c0e85821495/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/36d99d8b63de6db5cb7e1c71b161989d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/36d99d8b63de6db5cb7e1c71b161989d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/3f6f5b72b952c163ec45f2f49074dda4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/3f6f5b72b952c163ec45f2f49074dda4/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1ed32faa02a9e810b675ea79f5131ac6/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1ed32faa02a9e810b675ea79f5131ac6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /Users/alexanderpowell/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1a2075030873e4d6e9818dbe21240944/AndroidManifest.xml:20:5-44

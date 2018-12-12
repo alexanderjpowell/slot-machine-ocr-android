@@ -1079,6 +1079,7 @@ id contentPanel
 id coordinator
 id custom
 id customPanel
+id dateText
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1167,6 +1168,7 @@ id progressive4
 id progressive5
 id progressive6
 id radio
+id recyclerView
 id right
 id right_icon
 id right_side
@@ -1212,6 +1214,7 @@ id standard
 id start
 id status_bar_latest_event_content
 id stretch
+id subjectText
 id submenuarrow
 id submit_area
 id tabMode
@@ -1329,6 +1332,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recyclerview_row
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
